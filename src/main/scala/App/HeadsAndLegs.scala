@@ -15,7 +15,7 @@ object HeadsAndLegs extends App {
     if (legs % 2 == 0 &&
       legs >= (head*2) && legs <= (head*4)){
       whatsYourBeef(head, legs)
-    }else{ "No Solution"
+    }else{ "No Solution Found"
       }
     }
   println(canItBeDoneFam(head,legs))
