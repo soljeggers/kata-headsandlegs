@@ -1,6 +1,6 @@
 package App
 
-object HeadsAndLegs extends App {
+object HeadsAndLegs2 extends App {
 
   val head: Int = 5
   val legs: Int = 18
@@ -16,10 +16,9 @@ object HeadsAndLegs extends App {
       legs >= (head*2) && legs <= (head*4)){
       whatsYourBeef(head, legs)
     }else{ "No Solution"
-      }
     }
+  }
   println(canItBeDoneFam(head,legs))
 }
-
 
 
