@@ -1,7 +1,0 @@
-package kata
-
-object HeadsAndLegs {
-
-
-
-}
