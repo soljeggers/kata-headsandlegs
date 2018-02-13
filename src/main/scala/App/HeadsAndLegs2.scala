@@ -4,8 +4,8 @@ import scala.io.StdIn
 
 object HeadsAndLegs2 extends App {
 
-  val head: Int = StdIn.readLine("How many heads?\n").toInt
-  val legs: Int = StdIn.readLine("How many legs? \n").toInt
+  val head: Int = 5 // StdIn.readLine("How many heads?\n").toInt
+  val legs: Int = 18 // StdIn.readLine("How many legs? \n").toInt
 
   def whatsYourBeef(head: Int, legs: Int) = {
     val cow = (legs - (2 * head)) / 2
